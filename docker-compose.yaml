@@ -1,0 +1,6 @@
+version: '3'
+services:
+  echo:
+    image: merxer/echo:0.0.9
+    ports:
+      - 9999:1323
